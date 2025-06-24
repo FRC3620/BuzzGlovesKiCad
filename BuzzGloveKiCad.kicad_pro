@@ -538,7 +538,7 @@
       "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BuzzGloveKiCad.glb",
       "svg": "",
       "vrml": ""
     },

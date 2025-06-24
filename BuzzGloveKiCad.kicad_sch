@@ -4971,7 +4971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 55.88 69.85 0)
 			(effects
 				(font
@@ -5682,7 +5682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
+		(property "Footprint" "BuzzGloveFootprints:AMPHENOL_54602-908LF"
 			(at 40.64 136.525 90)
 			(effects
 				(font
