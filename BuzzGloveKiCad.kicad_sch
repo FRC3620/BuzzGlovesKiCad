@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "96e18a86-4139-49e1-85cc-a3b99f8c401d")
 	(paper "USLetter")
+	(title_block
+		(title "BuzzGloves")
+		(date "2025-06-24")
+		(rev "2025.06.23")
+		(company "FRC3620 - Average Joes")
+	)
 	(lib_symbols
 		(symbol "Conn_01x01_Socket_1"
 			(pin_numbers
@@ -588,6 +594,148 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2703,6 +2851,12 @@
 		(uuid "69c5228f-7638-4c70-947b-b703407f7e93")
 	)
 	(junction
+		(at 45.72 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df00fbe-cfb6-467e-8aaf-1b3338b9cd24")
+	)
+	(junction
 		(at 205.74 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2895,6 +3049,16 @@
 			(type default)
 		)
 		(uuid "04d66282-1de4-469d-afda-ec2cf4883f80")
+	)
+	(wire
+		(pts
+			(xy 39.37 67.31) (xy 45.72 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0691d4ef-057a-47cf-a53f-7e32a31040fa")
 	)
 	(wire
 		(pts
@@ -3308,6 +3472,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 69.85) (xy 45.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5df8b4-5834-44ef-9bee-acf8346e58f0")
+	)
+	(wire
+		(pts
 			(xy 243.84 121.92) (xy 243.84 124.46)
 		)
 		(stroke
@@ -3318,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 78.74) (xy 55.88 78.74)
+			(xy 39.37 78.74) (xy 45.72 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3678,6 +3852,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 69.85) (xy 45.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6379e58-e44c-40d9-a317-72c316c501f5")
+	)
+	(wire
+		(pts
 			(xy 167.64 67.31) (xy 167.64 68.58)
 		)
 		(stroke
@@ -3725,6 +3909,16 @@
 			(type default)
 		)
 		(uuid "de3b2c14-5f80-4748-8b2f-29e3ff13441d")
+	)
+	(wire
+		(pts
+			(xy 45.72 67.31) (xy 45.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37eb721-e944-4d2d-a55c-41e44b2280b8")
 	)
 	(wire
 		(pts
@@ -3825,6 +4019,16 @@
 			(type default)
 		)
 		(uuid "fd215c4b-4e16-42f7-997d-3bb44d31431d")
+	)
+	(wire
+		(pts
+			(xy 45.72 78.74) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6095c0-dea0-4a32-9ac7-fdf7b2b3cff7")
 	)
 	(label "Pico Power"
 		(at 100.33 67.31 0)
@@ -7668,6 +7872,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 34.29 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f06a19fb-fbf3-411f-9655-344f89957ce2")
+		(property "Reference" "J4"
+			(at 31.75 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Power"
+			(at 31.75 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 34.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 34.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2ba45db-51ee-4007-81be-4d23109dc024")
+		)
+		(pin "2"
+			(uuid "fad7c94e-5a6a-40b6-8171-25622f0209d2")
+		)
+		(instances
+			(project ""
+				(path "/96e18a86-4139-49e1-85cc-a3b99f8c401d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 229.87 83.82 270)
 		(unit 1)
@@ -7899,4 +8174,24 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "frc3620.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WB5CMUTAEZdXCEAtxsWHGS5ac4JWli9n5JTOUAZRYkn5HXQcxNVVbcAEAFSAEsAVQD/uBPx
+				fzw2T9rXejIXbt9x0GBROfvznyX5taDBkrT9ZMcv+RcAgIBAFL2PU17VVtnPN1CsOuPnsl/3GBiU
+				UkSdtS+2Y/ZRARAQjCHS9nGeDRUCJf/urYmwak/LVMretf2ci94z+83Ye7BnzyrkYbBrB99+++f7
+				uyKcua76r4ch9uacsnbt73qtEyFn7UtR5aS0P3M/VlV7yN33PIc4I78wGFVHqEz0NSmlomEu2WZ7
+				YA4tgiJY0pJWT0ovqegFI5VlsMeWaTAYDUXohj/3yDmbsv91r00d+6MIZNWmmKlaPbuumxRRAPzF
+				HdpW7RGLFa36AwGBQVGvy3Q5McSOhFxwKJhlUnFMxSUthExMMEom0SAW4lmQe9uG2nUhJ80kGS0D
+				vs1UWuln+90/mMEhNfi0qp8LM+50dpGzXDILZvGTxXwg7jpRtU12CW2g4TSnHJoSEUmSJB1gRKQG
+				qxvfEWMwPuTpCXcvk63bpXvJL4vxOU1sBhC7gLnxpYlheHkdzpeBNkXADDan5j6RUHL6RNnzXfLD
+				JD6Uvz2EFGJi1rANwb6DQx75ji3ic3bK80QHDHF+WuiJxsZYKhy0ZMrTaBj0Uo5isnacupIH3J95
+				Wn5sM3/IHtVhiIY8+aC5sjU3+WwslwjWOVrWUhwUxGgcpz3oV+LNCR7Q2+M9VisIMolZjXVnvvQE
+				akMdnzbBgGarJqUH3SLCCmNQkGedmeCQJGaTQOfVRyEq57PbILlTZQcJ7c3Lb0eGn+Idwz4F2vR8
+				/Vrr/3F8RP1kuQP+GJgq|
+			)
+			(checksum "4FC45D2661D23489CE359C90BCD367E1")
+		)
+	)
 )
