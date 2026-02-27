@@ -14222,7 +14222,19 @@
 		(layer "Edge.Cuts")
 		(uuid "e765398c-dcfd-405e-8ca2-b03c1935eb78")
 	)
-	(gr_text "EF 2025.06.23"
+	(gr_text "1kΩ = BRN BLK RED\n10KΩ = BRN BLK ORG"
+		(at 162.56 90.805 90)
+		(layer "F.SilkS")
+		(uuid "1bb57b2c-b067-4752-a322-0b3f7b1baa2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "EF 2025.08.19"
 		(at 117.475 130.81 0)
 		(layer "F.SilkS")
 		(uuid "e7ccc20f-2f56-4378-aa71-dab81a70ab59")
